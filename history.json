@@ -34,5 +34,11 @@
     "day_str": "映前5天",
     "total_presale_wan": 565.1,
     "index_desc": "点映及预售总票房565.1万"
+  },
+  {
+    "fetch_time": "2026-08-07 00:00:10",
+    "day_str": "映前4天",
+    "total_presale_wan": 599.1,
+    "index_desc": "点映及预售总票房599.1万"
   }
 ]
