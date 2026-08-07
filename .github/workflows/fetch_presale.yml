@@ -75,6 +75,15 @@ jobs:
           with open('history.json', 'w', encoding='utf-8') as f:
               json.dump(history, f, ensure_ascii=False, indent=2)
           
+          # 追加到CSV历史记录（UTF-8 BOM编码，方便Excel直接打开）
+          import csv, io
+          file_exists = os.path.exists('history.csv')
+          with open('history.csv', 'a', encoding='utf-8-sig', newline='') as f:
+              writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
+              if not file_exists:
+                  writer.writerow(['fetch_time', 'day_str', 'total_presale_wan', 'index_desc'])
+              writer.writerow([now.strftime('%Y-%m-%d %H:%M:%S'), day_str, total_presale, desc])
+          
           print(f'[{now.strftime(\"%Y-%m-%d %H:%M\")} 北京时间] {day_str} | {desc}')
           "
       
@@ -82,5 +91,5 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add latest.json history.json
+          git add latest.json history.json history.csv
           git diff --staged --quiet && echo "无新数据" || (git commit -m "更新预售数据 $(date -u -d '+8 hours' '+%Y-%m-%d %H:%M')" && git push)
