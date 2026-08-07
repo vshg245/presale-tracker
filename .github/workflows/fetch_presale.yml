@@ -75,14 +75,39 @@ jobs:
           with open('history.json', 'w', encoding='utf-8') as f:
               json.dump(history, f, ensure_ascii=False, indent=2)
           
-          # 追加到CSV历史记录（UTF-8 BOM编码，方便Excel直接打开）
+          # 追加到CSV历史记录（含每日预售明细，UTF-8 BOM编码）
           import csv, io
+          csv_headers = [
+              'fetch_time', 'day_str', 'total_presale_wan', 'index_desc',
+              '8/8_类型', '8/8_票房(万)', '8/8_场次', '8/8_人次',
+              '8/9_类型', '8/9_票房(万)', '8/9_场次', '8/9_人次',
+              '8/10_类型', '8/10_票房(万)', '8/10_场次', '8/10_人次',
+              '8/11_类型', '8/11_票房(万)', '8/11_场次', '8/11_人次',
+          ]
+          date_col_map = {'8/8': 4, '8/9': 8, '8/10': 12, '8/11': 16}
+          
+          # 从原始数据提取daily
+          daily_list = data.get('data', {}).get('daily', [])
+          csv_row = [''] * len(csv_headers)
+          csv_row[0] = now.strftime('%Y-%m-%d %H:%M:%S')
+          csv_row[1] = day_str
+          csv_row[2] = total_presale
+          csv_row[3] = desc
+          for d in daily_list:
+              d_date = d.get('date', '')
+              if d_date in date_col_map:
+                  base = date_col_map[d_date]
+                  csv_row[base] = d.get('type', '')
+                  csv_row[base + 1] = d.get('box_wan', '')
+                  csv_row[base + 2] = d.get('shows', '')
+                  csv_row[base + 3] = d.get('views', '')
+          
           file_exists = os.path.exists('history.csv')
           with open('history.csv', 'a', encoding='utf-8-sig', newline='') as f:
               writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_ALL)
               if not file_exists:
-                  writer.writerow(['fetch_time', 'day_str', 'total_presale_wan', 'index_desc'])
-              writer.writerow([now.strftime('%Y-%m-%d %H:%M:%S'), day_str, total_presale, desc])
+                  writer.writerow(csv_headers)
+              writer.writerow(csv_row)
           
           print(f'[{now.strftime(\"%Y-%m-%d %H:%M\")} 北京时间] {day_str} | {desc}')
           "
