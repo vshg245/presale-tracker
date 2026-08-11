@@ -1,0 +1,30 @@
+name: 猫眼实时数据抓取
+
+on:
+  schedule:
+    # 每10分钟运行一次（GitHub Actions 免费版最小间隔）
+    - cron: "*/10 * * * *"
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  fetch-maoyan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 抓取猫眼实时数据
+        run: python3 .github/scripts/fetch_maoyan_realtime.py
+
+      - name: 提交更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add maoyan-realtime.json
+          git diff --cached --quiet || git commit -m "更新猫眼实时数据 $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
