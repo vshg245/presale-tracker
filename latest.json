@@ -1,31 +1,31 @@
 {
-  "fetch_time": "2026-08-21 01:00:17",
+  "fetch_time": "2026-08-21 02:00:17",
   "timezone": "UTC+8",
   "movie": "欢迎来龙餐馆",
   "day_str": "上映第12天",
-  "total_presale_wan": 129605.7,
-  "index_desc": "点映及预售总票房129605.7万",
+  "total_presale_wan": 129631.44,
+  "index_desc": "点映及预售总票房129631.44万",
   "source": "猫眼专业版",
   "daily": [
     {
       "date": "8/21",
       "type": "上映第11天",
-      "box_wan": 974.17,
+      "box_wan": 993.0,
       "shows": "14.3万",
-      "views": "25.6万"
+      "views": "26.1万"
     },
     {
       "date": "8/22",
       "type": "上映第12天",
-      "box_wan": 445.5,
+      "box_wan": 450.06,
       "shows": "12.2万",
-      "views": "11.1万"
+      "views": "11.2万"
     },
     {
       "date": "8/23",
       "type": "上映第13天",
-      "box_wan": 121.43,
-      "shows": "7.7万",
+      "box_wan": 122.49,
+      "shows": "7.8万",
       "views": "3.0万"
     }
   ]
