@@ -1,15 +1,15 @@
 {
-  "fetch_time": "2026-08-30 22:41:21",
+  "fetch_time": "2026-08-30 22:51:31",
   "movie_id": "1462628",
   "source": "box-office?ver=normal",
-  "update_time": "2026.08.31 06:41:21",
-  "national_box_wan": 928.9,
+  "update_time": "2026.08.31 06:51:31",
+  "national_box_wan": 930.3,
   "movies": [
     {
       "movieName": "奥德赛",
       "releaseInfo": "上映18天",
-      "boxDesc": "281.72",
-      "boxRate": "30.3%",
+      "boxDesc": "281.79",
+      "boxRate": "30.2%",
       "showCountRate": "5.9%",
       "seatCountRate": "7.9%",
       "sumBoxDesc": "5.97亿"
@@ -17,7 +17,7 @@
     {
       "movieName": "欢迎来龙餐馆",
       "releaseInfo": "上映21天",
-      "boxDesc": "224.37",
+      "boxDesc": "224.82",
       "boxRate": "24.1%",
       "showCountRate": "32.3%",
       "seatCountRate": "38.7%",
@@ -26,7 +26,7 @@
     {
       "movieName": "空枪",
       "releaseInfo": "上映13天",
-      "boxDesc": "121.44",
+      "boxDesc": "121.65",
       "boxRate": "13.0%",
       "showCountRate": "17.7%",
       "seatCountRate": "17.7%",
@@ -35,7 +35,7 @@
     {
       "movieName": "八仙！",
       "releaseInfo": "上映45天",
-      "boxDesc": "96.99",
+      "boxDesc": "97.15",
       "boxRate": "10.4%",
       "showCountRate": "10.7%",
       "seatCountRate": "9.3%",
@@ -44,7 +44,7 @@
     {
       "movieName": "蜘蛛侠：崭新之日",
       "releaseInfo": "上映34天",
-      "boxDesc": "43.17",
+      "boxDesc": "43.24",
       "boxRate": "4.6%",
       "showCountRate": "5.7%",
       "seatCountRate": "4.7%",
@@ -53,7 +53,7 @@
     {
       "movieName": "肖申克的救赎",
       "releaseInfo": "上映4天",
-      "boxDesc": "29.60",
+      "boxDesc": "29.64",
       "boxRate": "3.1%",
       "showCountRate": "2.9%",
       "seatCountRate": "2.4%",
@@ -62,7 +62,7 @@
     {
       "movieName": "去你的岛",
       "releaseInfo": "上映25天",
-      "boxDesc": "24.24",
+      "boxDesc": "24.27",
       "boxRate": "2.6%",
       "showCountRate": "3.6%",
       "seatCountRate": "2.7%",
@@ -71,7 +71,7 @@
     {
       "movieName": "痴迷",
       "releaseInfo": "上映39天",
-      "boxDesc": "21.61",
+      "boxDesc": "21.62",
       "boxRate": "2.3%",
       "showCountRate": "2.4%",
       "seatCountRate": "1.9%",
@@ -80,7 +80,7 @@
     {
       "movieName": "牛来",
       "releaseInfo": "上映27天",
-      "boxDesc": "21.44",
+      "boxDesc": "21.49",
       "boxRate": "2.3%",
       "showCountRate": "3.3%",
       "seatCountRate": "2.6%",
@@ -89,7 +89,7 @@
     {
       "movieName": "汪汪队立大功大电影3：勇闯恐龙岛",
       "releaseInfo": "上映24天",
-      "boxDesc": "14.79",
+      "boxDesc": "14.80",
       "boxRate": "1.5%",
       "showCountRate": "1.9%",
       "seatCountRate": "1.6%",
@@ -99,8 +99,8 @@
   "my_movie": {
     "movieName": "奥德赛",
     "releaseInfo": "上映18天",
-    "boxDesc": "281.72",
-    "boxRate": "30.3%",
+    "boxDesc": "281.79",
+    "boxRate": "30.2%",
     "showCountRate": "5.9%",
     "seatCountRate": "7.9%",
     "sumBoxDesc": "5.97亿"
