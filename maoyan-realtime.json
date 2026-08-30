@@ -1,14 +1,14 @@
 {
-  "fetch_time": "2026-08-30 21:31:29",
+  "fetch_time": "2026-08-30 21:41:31",
   "movie_id": "1462628",
   "source": "box-office?ver=normal",
-  "update_time": "2026.08.31 05:31:29",
-  "national_box_wan": 923.9,
+  "update_time": "2026.08.31 05:41:30",
+  "national_box_wan": 924.2,
   "movies": [
     {
       "movieName": "奥德赛",
       "releaseInfo": "上映18天",
-      "boxDesc": "280.84",
+      "boxDesc": "280.88",
       "boxRate": "30.3%",
       "showCountRate": "5.9%",
       "seatCountRate": "7.9%",
@@ -17,7 +17,7 @@
     {
       "movieName": "欢迎来龙餐馆",
       "releaseInfo": "上映21天",
-      "boxDesc": "223.20",
+      "boxDesc": "223.24",
       "boxRate": "24.1%",
       "showCountRate": "32.3%",
       "seatCountRate": "38.7%",
@@ -26,7 +26,7 @@
     {
       "movieName": "空枪",
       "releaseInfo": "上映13天",
-      "boxDesc": "120.21",
+      "boxDesc": "120.31",
       "boxRate": "13.0%",
       "showCountRate": "17.7%",
       "seatCountRate": "17.7%",
@@ -35,7 +35,7 @@
     {
       "movieName": "八仙！",
       "releaseInfo": "上映45天",
-      "boxDesc": "96.63",
+      "boxDesc": "96.64",
       "boxRate": "10.4%",
       "showCountRate": "10.7%",
       "seatCountRate": "9.3%",
@@ -44,7 +44,7 @@
     {
       "movieName": "蜘蛛侠：崭新之日",
       "releaseInfo": "上映34天",
-      "boxDesc": "42.91",
+      "boxDesc": "42.93",
       "boxRate": "4.6%",
       "showCountRate": "5.7%",
       "seatCountRate": "4.7%",
@@ -62,7 +62,7 @@
     {
       "movieName": "去你的岛",
       "releaseInfo": "上映25天",
-      "boxDesc": "23.96",
+      "boxDesc": "23.98",
       "boxRate": "2.5%",
       "showCountRate": "3.6%",
       "seatCountRate": "2.7%",
@@ -71,7 +71,7 @@
     {
       "movieName": "痴迷",
       "releaseInfo": "上映39天",
-      "boxDesc": "21.38",
+      "boxDesc": "21.41",
       "boxRate": "2.3%",
       "showCountRate": "2.4%",
       "seatCountRate": "1.9%",
@@ -99,7 +99,7 @@
   "my_movie": {
     "movieName": "奥德赛",
     "releaseInfo": "上映18天",
-    "boxDesc": "280.84",
+    "boxDesc": "280.88",
     "boxRate": "30.3%",
     "showCountRate": "5.9%",
     "seatCountRate": "7.9%",
