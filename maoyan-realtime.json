@@ -1,14 +1,14 @@
 {
-  "fetch_time": "2026-09-01 14:36:24",
+  "fetch_time": "2026-09-01 14:51:06",
   "movie_id": "1462628",
   "source": "box-office?ver=normal",
-  "update_time": "2026.09.01 22:36:24",
-  "national_box_wan": 4904.0,
+  "update_time": "2026.09.01 22:51:06",
+  "national_box_wan": 4922.6,
   "movies": [
     {
       "movieName": "欢迎来龙餐馆",
       "releaseInfo": "上映22天",
-      "boxDesc": "1608.43",
+      "boxDesc": "1614.28",
       "boxRate": "32.7%",
       "showCountRate": "32.2%",
       "seatCountRate": "38.1%",
@@ -17,7 +17,7 @@
     {
       "movieName": "空枪",
       "releaseInfo": "上映14天",
-      "boxDesc": "1386.39",
+      "boxDesc": "1392.88",
       "boxRate": "28.2%",
       "showCountRate": "18.6%",
       "seatCountRate": "18.6%",
@@ -26,7 +26,7 @@
     {
       "movieName": "奥德赛",
       "releaseInfo": "上映19天",
-      "boxDesc": "768.78",
+      "boxDesc": "770.21",
       "boxRate": "15.6%",
       "showCountRate": "6.2%",
       "seatCountRate": "8.2%",
@@ -35,7 +35,7 @@
     {
       "movieName": "八仙！",
       "releaseInfo": "上映46天",
-      "boxDesc": "313.08",
+      "boxDesc": "313.80",
       "boxRate": "6.3%",
       "showCountRate": "10.4%",
       "seatCountRate": "9.0%",
@@ -44,7 +44,7 @@
     {
       "movieName": "蜘蛛侠：崭新之日",
       "releaseInfo": "上映35天",
-      "boxDesc": "290.46",
+      "boxDesc": "291.05",
       "boxRate": "5.9%",
       "showCountRate": "6.0%",
       "seatCountRate": "5.0%",
@@ -53,7 +53,7 @@
     {
       "movieName": "痴迷",
       "releaseInfo": "上映40天",
-      "boxDesc": "141.19",
+      "boxDesc": "142.63",
       "boxRate": "2.8%",
       "showCountRate": "2.7%",
       "seatCountRate": "2.1%",
@@ -62,16 +62,16 @@
     {
       "movieName": "肖申克的救赎",
       "releaseInfo": "上映5天",
-      "boxDesc": "92.33",
+      "boxDesc": "92.46",
       "boxRate": "1.8%",
       "showCountRate": "2.8%",
       "seatCountRate": "2.3%",
-      "sumBoxDesc": "1353.4万"
+      "sumBoxDesc": "1353.6万"
     },
     {
       "movieName": "去你的岛",
       "releaseInfo": "上映26天",
-      "boxDesc": "85.07",
+      "boxDesc": "85.47",
       "boxRate": "1.7%",
       "showCountRate": "3.6%",
       "seatCountRate": "2.7%",
@@ -80,16 +80,16 @@
     {
       "movieName": "密档",
       "releaseInfo": "上映5天",
-      "boxDesc": "45.60",
+      "boxDesc": "45.89",
       "boxRate": "0.9%",
       "showCountRate": "1.1%",
       "seatCountRate": "0.8%",
-      "sumBoxDesc": "472.2万"
+      "sumBoxDesc": "472.4万"
     },
     {
       "movieName": "功夫女足",
       "releaseInfo": "上映53天",
-      "boxDesc": "32.01",
+      "boxDesc": "32.26",
       "boxRate": "0.6%",
       "showCountRate": "2.4%",
       "seatCountRate": "1.9%",
@@ -99,7 +99,7 @@
   "my_movie": {
     "movieName": "欢迎来龙餐馆",
     "releaseInfo": "上映22天",
-    "boxDesc": "1608.43",
+    "boxDesc": "1614.28",
     "boxRate": "32.7%",
     "showCountRate": "32.2%",
     "seatCountRate": "38.1%",
