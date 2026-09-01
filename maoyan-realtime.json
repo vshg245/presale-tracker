@@ -1,14 +1,14 @@
 {
-  "fetch_time": "2026-09-01 20:39:49",
+  "fetch_time": "2026-09-01 20:47:27",
   "movie_id": "1462628",
   "source": "box-office?ver=normal",
-  "update_time": "2026.09.02 04:39:48",
-  "national_box_wan": 794.7,
+  "update_time": "2026.09.02 04:47:27",
+  "national_box_wan": 794.9,
   "movies": [
     {
       "movieName": "奥德赛",
       "releaseInfo": "上映20天",
-      "boxDesc": "236.08",
+      "boxDesc": "236.13",
       "boxRate": "29.7%",
       "showCountRate": "6.3%",
       "seatCountRate": "8.3%",
@@ -17,8 +17,8 @@
     {
       "movieName": "欢迎来龙餐馆",
       "releaseInfo": "上映23天",
-      "boxDesc": "166.87",
-      "boxRate": "20.9%",
+      "boxDesc": "166.97",
+      "boxRate": "21.0%",
       "showCountRate": "32.3%",
       "seatCountRate": "38.1%",
       "sumBoxDesc": "19.68亿"
@@ -26,7 +26,7 @@
     {
       "movieName": "空枪",
       "releaseInfo": "上映15天",
-      "boxDesc": "103.52",
+      "boxDesc": "103.56",
       "boxRate": "13.0%",
       "showCountRate": "19.0%",
       "seatCountRate": "19.1%",
@@ -53,7 +53,7 @@
     {
       "movieName": "八仙！",
       "releaseInfo": "上映47天",
-      "boxDesc": "43.49",
+      "boxDesc": "43.53",
       "boxRate": "5.4%",
       "showCountRate": "10.2%",
       "seatCountRate": "8.8%",
@@ -62,7 +62,7 @@
     {
       "movieName": "肖申克的救赎",
       "releaseInfo": "上映6天",
-      "boxDesc": "18.08",
+      "boxDesc": "18.09",
       "boxRate": "2.2%",
       "showCountRate": "2.8%",
       "seatCountRate": "2.3%",
@@ -80,7 +80,7 @@
     {
       "movieName": "去你的岛",
       "releaseInfo": "上映27天",
-      "boxDesc": "14.72",
+      "boxDesc": "14.74",
       "boxRate": "1.8%",
       "showCountRate": "3.6%",
       "seatCountRate": "2.8%",
@@ -99,7 +99,7 @@
   "my_movie": {
     "movieName": "奥德赛",
     "releaseInfo": "上映20天",
-    "boxDesc": "236.08",
+    "boxDesc": "236.13",
     "boxRate": "29.7%",
     "showCountRate": "6.3%",
     "seatCountRate": "8.3%",
