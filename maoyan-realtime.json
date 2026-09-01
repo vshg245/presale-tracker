@@ -1,14 +1,14 @@
 {
-  "fetch_time": "2026-09-01 19:41:38",
+  "fetch_time": "2026-09-01 19:52:13",
   "movie_id": "1462628",
   "source": "box-office?ver=normal",
-  "update_time": "2026.09.02 03:41:38",
-  "national_box_wan": 787.6,
+  "update_time": "2026.09.02 03:52:13",
+  "national_box_wan": 789.1,
   "movies": [
     {
       "movieName": "奥德赛",
       "releaseInfo": "上映20天",
-      "boxDesc": "235.17",
+      "boxDesc": "235.37",
       "boxRate": "29.8%",
       "showCountRate": "6.3%",
       "seatCountRate": "8.3%",
@@ -17,7 +17,7 @@
     {
       "movieName": "欢迎来龙餐馆",
       "releaseInfo": "上映23天",
-      "boxDesc": "164.73",
+      "boxDesc": "165.16",
       "boxRate": "20.9%",
       "showCountRate": "32.3%",
       "seatCountRate": "38.1%",
@@ -26,7 +26,7 @@
     {
       "movieName": "空枪",
       "releaseInfo": "上映15天",
-      "boxDesc": "102.01",
+      "boxDesc": "102.29",
       "boxRate": "12.9%",
       "showCountRate": "19.0%",
       "seatCountRate": "19.1%",
@@ -44,7 +44,7 @@
     {
       "movieName": "痴迷",
       "releaseInfo": "上映41天",
-      "boxDesc": "49.27",
+      "boxDesc": "49.32",
       "boxRate": "6.2%",
       "showCountRate": "2.9%",
       "seatCountRate": "2.3%",
@@ -53,7 +53,7 @@
     {
       "movieName": "八仙！",
       "releaseInfo": "上映47天",
-      "boxDesc": "42.81",
+      "boxDesc": "42.93",
       "boxRate": "5.4%",
       "showCountRate": "10.2%",
       "seatCountRate": "8.8%",
@@ -62,7 +62,7 @@
     {
       "movieName": "肖申克的救赎",
       "releaseInfo": "上映6天",
-      "boxDesc": "17.91",
+      "boxDesc": "17.93",
       "boxRate": "2.2%",
       "showCountRate": "2.8%",
       "seatCountRate": "2.3%",
@@ -80,7 +80,7 @@
     {
       "movieName": "去你的岛",
       "releaseInfo": "上映27天",
-      "boxDesc": "14.25",
+      "boxDesc": "14.36",
       "boxRate": "1.8%",
       "showCountRate": "3.6%",
       "seatCountRate": "2.8%",
@@ -89,7 +89,7 @@
     {
       "movieName": "坠落2：死点",
       "releaseInfo": "点映",
-      "boxDesc": "12.13",
+      "boxDesc": "12.19",
       "boxRate": "1.5%",
       "showCountRate": "<0.1%",
       "seatCountRate": "<0.1%",
@@ -99,7 +99,7 @@
   "my_movie": {
     "movieName": "奥德赛",
     "releaseInfo": "上映20天",
-    "boxDesc": "235.17",
+    "boxDesc": "235.37",
     "boxRate": "29.8%",
     "showCountRate": "6.3%",
     "seatCountRate": "8.3%",
