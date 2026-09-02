@@ -1,9 +1,9 @@
 {
-  "fetch_time": "2026-09-02 21:52:06",
+  "fetch_time": "2026-09-02 22:02:26",
   "movie_id": "1462628",
   "source": "box-office?ver=normal",
-  "update_time": "2026.09.03 05:52:06",
-  "national_box_wan": 798.8,
+  "update_time": "2026.09.03 06:02:26",
+  "national_box_wan": 798.9,
   "movies": [
     {
       "movieName": "奥德赛",
@@ -17,7 +17,7 @@
     {
       "movieName": "欢迎来龙餐馆",
       "releaseInfo": "上映24天",
-      "boxDesc": "146.89",
+      "boxDesc": "146.92",
       "boxRate": "18.3%",
       "showCountRate": "32.3%",
       "seatCountRate": "37.9%",
@@ -35,7 +35,7 @@
     {
       "movieName": "空枪",
       "releaseInfo": "上映16天",
-      "boxDesc": "103.57",
+      "boxDesc": "103.61",
       "boxRate": "12.9%",
       "showCountRate": "19.4%",
       "seatCountRate": "19.6%",
@@ -71,7 +71,7 @@
     {
       "movieName": "坠落2：死点",
       "releaseInfo": "点映",
-      "boxDesc": "19.58",
+      "boxDesc": "19.60",
       "boxRate": "2.4%",
       "showCountRate": "<0.1%",
       "seatCountRate": "<0.1%",
