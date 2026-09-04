@@ -1,14 +1,14 @@
 {
-  "fetch_time": "2026-09-04 21:27:36",
+  "fetch_time": "2026-09-04 21:36:28",
   "movie_id": "1462628",
   "source": "box-office?ver=normal",
-  "update_time": "2026.09.05 05:27:36",
-  "national_box_wan": 2816.7,
+  "update_time": "2026.09.05 05:36:28",
+  "national_box_wan": 2817.2,
   "movies": [
     {
       "movieName": "奥德赛",
       "releaseInfo": "上映23天",
-      "boxDesc": "610.96",
+      "boxDesc": "611.07",
       "boxRate": "21.6%",
       "showCountRate": "4.0%",
       "seatCountRate": "5.9%",
@@ -17,7 +17,7 @@
     {
       "movieName": "欢迎来龙餐馆",
       "releaseInfo": "上映26天",
-      "boxDesc": "449.20",
+      "boxDesc": "449.29",
       "boxRate": "15.9%",
       "showCountRate": "25.1%",
       "seatCountRate": "30.8%",
@@ -26,7 +26,7 @@
     {
       "movieName": "杀死比尔：血色全传",
       "releaseInfo": "上映2天",
-      "boxDesc": "359.11",
+      "boxDesc": "359.16",
       "boxRate": "12.7%",
       "showCountRate": "2.7%",
       "seatCountRate": "2.2%",
@@ -44,7 +44,7 @@
     {
       "movieName": "空枪",
       "releaseInfo": "上映18天",
-      "boxDesc": "259.28",
+      "boxDesc": "259.34",
       "boxRate": "9.2%",
       "showCountRate": "14.9%",
       "seatCountRate": "15.7%",
@@ -53,11 +53,11 @@
     {
       "movieName": "坠落2：死点",
       "releaseInfo": "上映2天",
-      "boxDesc": "171.08",
+      "boxDesc": "171.11",
       "boxRate": "6.0%",
       "showCountRate": "11.6%",
       "seatCountRate": "10.1%",
-      "sumBoxDesc": "888.4万"
+      "sumBoxDesc": "888.5万"
     },
     {
       "movieName": "2026-2027赛季德国乒乓球甲级联赛及德国杯赛事",
@@ -80,7 +80,7 @@
     {
       "movieName": "怒之杀",
       "releaseInfo": "上映2天",
-      "boxDesc": "46.90",
+      "boxDesc": "46.91",
       "boxRate": "1.6%",
       "showCountRate": "9.9%",
       "seatCountRate": "8.5%",
@@ -89,7 +89,7 @@
     {
       "movieName": "痴迷",
       "releaseInfo": "上映44天",
-      "boxDesc": "44.61",
+      "boxDesc": "44.63",
       "boxRate": "1.5%",
       "showCountRate": "1.1%",
       "seatCountRate": "0.8%",
@@ -99,7 +99,7 @@
   "my_movie": {
     "movieName": "奥德赛",
     "releaseInfo": "上映23天",
-    "boxDesc": "610.96",
+    "boxDesc": "611.07",
     "boxRate": "21.6%",
     "showCountRate": "4.0%",
     "seatCountRate": "5.9%",
